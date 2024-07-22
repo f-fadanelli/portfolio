@@ -23,18 +23,18 @@
 
     <div class="main">
         <header class="header">        
-            <img class="photo" src="/assets/img/photo.jpg" alt="my-photo">
+            <img class="photo" id="profile.photo" src="/assets/img/my-photo.png" alt="my-photo">
 
-            <h1 class="title">Olá, eu sou Felipe</h1>
+            <h1 class="title">Olá, eu sou <span id="profile.name">Carregando...</span></h1>
 
             <div class="information">
-                <p class="profile">Backend Developer</p>
-                <p class="location">Caxias do Sul - BR</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(54)99950-8861">(54) 99950-8861</a>
+                    <a href="tel:(54)99999-9999" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="mail">
-                    <a href="mailto:fmfadanelli@ucs.br">fmfadanelli@ucs.br</a>
+                    <a href="mailto:ex@mail.com" id="profile.mail">Carregando...</a>
                 </p>
             </div>
         </header>
@@ -47,38 +47,20 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Habilidades Profissionais:</h3>
-                        <ul>
+                        <ul id="profile.skills.tools">
                             <li>
                                 <img src="/assets/img/icons/node.svg" alt="node" title="node">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/java.svg" alt="java" title="java">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/csharp.svg" alt="csharp" title="csharp">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/postgres.svg" alt="postgres" title="postgres">
                             </li>
                         </ul>
                     </section>
                     <section class="softskills">
                         <h3>Habilidades Pessoais:</h3>
-                        <ul>
+                        <ul id="profile.skills.softskills">
                             <li>
-                                Facilidade de comunicação
+                                Carregando... 
                             </li>
                             <li>
-                                Capacidade analítica 
-                            </li>
-                            <li>
-                                Aprendizagem contínua 
-                            </li>
-                            <li>
-                                Trabalho em equipe 
-                            </li>
-                            <li>
-                                Organização 
+                                Carregando... 
                             </li>
                         </ul>
                     </section>
@@ -91,10 +73,8 @@
                 Idiomas
             </button>
             <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Inglês</li>
-                    <li>Espanhol</li>
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li>
                 </ul>
             </div>
         </section>
@@ -104,14 +84,9 @@
                 Portfólio
             </button>
             <div class="content">
-                <ul class="portfolio">
+                <ul class="portfolio" id="profile.portfolio">
                     <li>
-                        <span class="title github">UNITES</span>
-                        <a target="_blank" href="https://github.com/f-fadanelli/unites-back">https://github.com/f-fadanelli/unites-back</a>
-                    </li>
-                    <li>
-                        <span class="title github">Fakestore</span>
-                        <a target="_blank" href="https://github.com/f-fadanelli/fakestoreapi-project">https://github.com/f-fadanelli/fakestoreapi-project</a>
+                        Carregando...
                     </li>
                 </ul>
             </div>
@@ -122,14 +97,9 @@
                 Experiência Profissional
             </button>
             <div class="content">
-                <ul class="experience">
+                <ul class="experience" id="profile.experience">
                     <li>
-                        <span class="title">Desenvolvedor de Sistemas - TCS Sistemas</span>
-                        <span class="period">Fev 2022 - Dec 2022</span>
-                    </li>
-                    <li>
-                        <span class="title">Desenvolvedor Backend - Marcopolo SA</span>
-                        <span class="period">Oct 2023 - Current</span>
+                        Carregando...
                     </li>
                 </ul>
             </div>
@@ -137,5 +107,7 @@
 
     </div>
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

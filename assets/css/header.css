@@ -62,7 +62,7 @@
     margin-right: .5rem;
 }
 
-.information .profile::before{
+.information .job::before{
     background-image: url('/assets/img/icons/profile.svg');
 }
 

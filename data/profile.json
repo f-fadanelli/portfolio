@@ -1,0 +1,63 @@
+{
+    "name": "Felipe Fadanelli",
+    "photo": "https://avatars.githubusercontent.com/u/141413303?v=4",
+    "job": "Backend Developer",
+    "location": "Caxias do Sul - RS",
+    "phone": "(54) 99950-8861",
+    "mail": "fmfadanelli@ucs.br",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "Nodejs",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+            },
+            {
+                "name": "Java",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+            },
+            {
+                "name": "Mongodb",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+            },
+            {
+                "name": "Postgresql",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+            }
+        ],
+        "softSkills": [
+            "Facilidade em comunicação",
+            "Trabalho em equipe",
+            "Flexibilidade",
+            "Organização",
+            "Capacidade de Análise",
+            "Aprendizagem contínua"
+        ]
+    },
+    "languages": [
+        "Português BR",
+        "Inglês",
+        "Espanhol"
+    ],
+    "portfolio": [
+        {
+            "name": "UNITES",
+            "url": "https://github.com/f-fadanelli/unites-back",
+            "github": true
+        },
+        {
+            "name": "Fakestore",
+            "url": "https://github.com/f-fadanelli/fakestoreapi-project",
+            "github": true
+        }
+    ],
+    "professionalExperience": [
+        {
+            "name": ".Net Fullstack Developer - TCS Sistemas",
+            "period": "Fev 2022 - Dec 2022"
+        },
+        {
+            "name": "Backend Developer - Marcopolo SA",
+            "period": "Oct 2023 - current"
+        }
+    ]
+}
